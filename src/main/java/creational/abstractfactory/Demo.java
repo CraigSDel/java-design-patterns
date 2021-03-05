@@ -2,7 +2,7 @@ package creational.abstractfactory;
 
 import creational.factory.Aircraft;
 
-public class AbstractFactoryTest {
+public class Demo {
     public static void main(String[] args) {
         AbstractFactory airplaneFactory = FactoryProducer.getFactory("aircraft");
         Aircraft helicopter = airplaneFactory.getAircraft("helicopter");
